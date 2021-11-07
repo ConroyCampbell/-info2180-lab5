@@ -8,6 +8,16 @@ header{
     color: white;
     
 }
+input[type=search]{
+    width:500px;
+    padding: 0.7%;
+    border-radius: 15px;
+}
+input{
+    font-size:20px;
+    border: 4px solid black;
+    margin: 8px 0;
+}
 body header img{
     width:auto;
     height:100px;
@@ -19,22 +29,6 @@ body{
     font-size:20px;
     font-weight: 800;
     background-color: #c7dcef;
-}
-main{
-    width: 60%;
-    margin:0 20vw;
-    justify-content: center;
-    text-align: center;
-}
-input[type=search]{
-    width:500px;
-    padding: 0.7%;
-    border-radius: 15px;
-}
-input{
-    font-size:20px;
-    border: 4px solid black;
-    margin: 8px 0;
 }
 Button{
     border-radius: 5px;
@@ -78,4 +72,10 @@ table{
 #result{
     display: flex;
     justify-content: center;
+}
+main{
+    width: 60%;
+    margin:0 20vw;
+    justify-content: center;
+    text-align: center;
 }
